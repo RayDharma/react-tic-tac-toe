@@ -62,7 +62,7 @@ function App() {
         <SquareComponent state={gameState[8]} onClick={() => onSquareClicked(8)}/>
       </div>
       <button className="clear-button" onClick={() => updateGameState(initialState)}>Clear Game</button>
-      <p className="fc-aqua fw-600">Ray Dharma</p>
+      <p className="fc-aqua fw-600">Ray Dharma - Yumine Hikaru</p>
     </div>
   );
 }
